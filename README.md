@@ -9,6 +9,6 @@ PyCharm/VSC
 Python 3.10.5
 PyQt5
 
-ROS/Gazebo/RViz
-Linux/Windows
+ROS Noetic Ninjemys/Gazebo/RViz
+Linux Ubuntu 20.04
 Teams
