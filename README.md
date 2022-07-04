@@ -1,7 +1,7 @@
-## Autonomous JCB mini excavator
+# Autonomous JCB mini excavator
 Best excavator in the world
 
-# Programs used
+## Programs used
 SOLIDWORKS 2021
 Creo Parametric 6.0.20
 LabView 2017/2019
