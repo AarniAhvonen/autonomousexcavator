@@ -1,4 +1,4 @@
-# Autonomous JCB mini excavator
+# JCB mini excavator
 Best excavator in the world
 
 ## Programs used
