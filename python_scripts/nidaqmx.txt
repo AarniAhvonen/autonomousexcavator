@@ -1,0 +1,28 @@
+!pip install nidaqmx
+
+import nidaqmx
+from IPython.display import clear_output
+
+
+with nidaqmx.Task() as task:
+    task.ai_channels.add_ai_current_chan("Dev3/ai0")
+    a=task.read()
+    print(a)
+with nidaqmx.Task() as task:
+    task.ai_channels.add_ai_voltage_chan("Dev3/ai0")
+    a=task.read()
+    print(a)
+
+
+
+
+while 1:
+    with nidaqmx.Task() as task:
+        task.ai_channels.add_ai_voltage_chan("Dev3/ai0")
+        a=task.read()
+        clear_output(wait=True)
+        print(a)
+
+
+with nidaqmx.Task() as task:
+    ai_channel = task.ai_channels.add_ai_voltage_chan("Dev1/ai0", terminal_config = TerminalConfiguration.NRSE)
