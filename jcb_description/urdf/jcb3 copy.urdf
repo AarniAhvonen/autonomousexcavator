@@ -23,7 +23,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 3.1416" />
       <geometry>
         <mesh
           filename="package://jcb3/meshes/base_link.STL" />
@@ -37,7 +37,7 @@
     <collision>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 3.1416" />
       <geometry>
         <mesh
           filename="package://jcb3/meshes/base_link.STL" />
@@ -63,7 +63,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 3.1416" />
       <geometry>
         <mesh
           filename="package://jcb3/meshes/Link_1.STL" />
@@ -77,7 +77,7 @@
     <collision>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 3.1416" />
       <geometry>
         <mesh
           filename="package://jcb3/meshes/Link_1.STL" />
@@ -95,7 +95,7 @@
     <child
       link="Link_1" />
     <axis
-      xyz="0 0 1" />
+      xyz="0 1 0" />
     <limit
       lower="2.2441"
       upper="0"
@@ -121,7 +121,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 3.1416" />
       <geometry>
         <mesh
           filename="package://jcb3/meshes/Link_2.STL" />
@@ -135,7 +135,7 @@
     <collision>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 3.1416" />
       <geometry>
         <mesh
           filename="package://jcb3/meshes/Link_2.STL" />
@@ -153,7 +153,7 @@
     <child
       link="Link_2" />
     <axis
-      xyz="0 0 1" />
+      xyz="0 1 0" />
     <limit
       lower="1.938"
       upper="0"
@@ -179,7 +179,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 3.1416" />
       <geometry>
         <mesh
           filename="package://jcb3/meshes/Link_3.STL" />
@@ -193,7 +193,7 @@
     <collision>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 3.1416" />
       <geometry>
         <mesh
           filename="package://jcb3/meshes/Link_3.STL" />
@@ -211,7 +211,7 @@
     <child
       link="Link_3" />
     <axis
-      xyz="0 0 1" />
+      xyz="0 1 0" />
     <limit
       lower="3.3241"
       upper="0"
