@@ -14,6 +14,6 @@ ROS Noetic Ninjemys/Gazebo/RViz
 Linux Ubuntu 20.04
 Teams
 
-#CAD/URDF
+# CAD/URDF
 Previous CAD models created in Creo were used in the assembly of the excavator. URDF files were generated with simplyfying the assembly and utilizing SolidWorks to URDF exporter which can be found here:
 http://wiki.ros.org/sw_urdf_exporter
