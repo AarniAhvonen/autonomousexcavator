@@ -103,7 +103,7 @@ Click the button of "send" in interface window.
 [interface-screenshot]: images/interface.png
 
 ## CAD
-Previous CAD models created in Creo were used in the assembly of the excavator. 
+Previous CAD models created in Creo were used to make a new assembly of the excavator in Solidworks. Some of the previous CAD models needed little adjustments.
 ### URDF
 URDF files were generated with simplyfying the assembly and utilizing SolidWorks to URDF exporter which can be found here:
 
