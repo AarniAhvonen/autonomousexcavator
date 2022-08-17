@@ -1,6 +1,3 @@
-# JCB mini excavator
-Best excavator in the world
-
 ## Programs used
 SOLIDWORKS 2021, Creo Parametric 6.0.20
 
