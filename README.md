@@ -1,4 +1,4 @@
-## Programs used
+## Softwares/Platforms
 SOLIDWORKS 2021, Creo Parametric 6.0.20
 
 LabView 2017/2019
@@ -11,7 +11,6 @@ PyQt5
 
 ROS Noetic Ninjemys/Gazebo/RViz
 Linux Ubuntu 20.04
-Teams
 
 
 ## Installation
