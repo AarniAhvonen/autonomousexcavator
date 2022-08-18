@@ -5,7 +5,8 @@ LabView 2017/2019
 
 PyCharm/VSC
 
-Python 3.10.5\n
+Python 3.10.5
+
 PyQt5
 
 ROS Noetic Ninjemys/Gazebo/RViz
