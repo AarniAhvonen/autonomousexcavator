@@ -1,7 +1,7 @@
 ## Softwares/Platforms
 SOLIDWORKS 2021, Creo Parametric 6.0.20
 
-LabView 2017/2019
+LabView 2019
 
 PyCharm/VSC
 
