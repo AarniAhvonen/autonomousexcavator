@@ -165,3 +165,17 @@ Input the values:
 # CAD/URDF
 Previous CAD models created in Creo were used in the assembly of the excavator. URDF files were generated with simplyfying the assembly and utilizing SolidWorks to URDF exporter which can be found here:
 http://wiki.ros.org/sw_urdf_exporter
+
+## LabView
+
+The LabView version used in this project is LabView 2019. The Python nodes used in this project are only available in LabView 2018 and never versions. LabView can be downloaded here: 
+
+https://www.ni.com/fi-fi/support/downloads/software-products/download.labview.html#443865
+
+In order to control the Bosch Rexroth motors, an EAL4LabView Toolkit by Bosch Rexroth is needed. EAL4LabView can be downloaded here:
+
+https://www.vipm.io/package/eal4labview/
+
+In order to download the toolkit, the Visual Instruments Package Manager (VIPM) should be downloaded:
+
+https://www.vipm.io/download/
