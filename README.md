@@ -162,6 +162,6 @@ Input the values:
 [interface-screenshot]: images/interface.png
 [rviz-screenshot]: images/excavator_rviz.png
 
-# CAD/URDF
+## CAD/URDF
 Previous CAD models created in Creo were used in the assembly of the excavator. URDF files were generated with simplyfying the assembly and utilizing SolidWorks to URDF exporter which can be found here:
 http://wiki.ros.org/sw_urdf_exporter
