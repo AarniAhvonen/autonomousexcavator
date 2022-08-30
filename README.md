@@ -191,17 +191,17 @@ https://www.vipm.io/download/
 
 ### Programs
 
-In order to give the excavator a single target, run 
+For a single target position, run:
 ```
 digitally_ros_without_joystick_single_target.vi
 ```
 
-If you want to give the excavator a new target position after the previous one has been reached, run 
+For consecutive target positions, run:
 ```
 digitally_ros_without_Joystick_multiple_targets.vi
 ```
 
-In order to move the excavator manually by using joysticks, run
+For manual control using joysticks, run
 ```
 two_joysticks_without_sensors.vi
 ```
