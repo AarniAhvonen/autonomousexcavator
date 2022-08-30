@@ -1,3 +1,9 @@
+## Introduction
+
+An experimental research tool that uses the Robot Operating System (ROS) to automate specific functions and demonstrate how different ROS libraries and packages may be utilized. In addition to ROS automation, a few LabView applications are employed for joystick-based manual excavator control.
+
+
+
 ## Softwares/Platforms
 SOLIDWORKS 2021, Creo Parametric 6.0.20
 
