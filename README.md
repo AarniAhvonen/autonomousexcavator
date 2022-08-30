@@ -134,18 +134,13 @@ Input the values:
     Example values: -x -1.6 -y 0 -z 1.2 -pitch -2 -roll 0 -yaw 0
 
 ### Let the robot in simulation world goes to the same position 
-1. Go the repo
-    ```
-    cd $Your_repository_path
-    ```
-2. Copy the folder with essential python codes (not necessary)
-    ```
-    cp -rf python_scripts_linux $some_path_contain_your_python_projects
-    ```
+
 3. Run python code
     ```
-    cd $the_path_of_python_scripts_linux
-    python3 init_recieve.py
+    roscd jcb_moveit_config
+    cd scripts
+    python3 excavatorprogram2.py
+
     ```
 4. Open a new terminal
     ```
