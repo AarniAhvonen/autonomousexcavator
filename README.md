@@ -186,3 +186,20 @@ https://www.vipm.io/package/eal4labview/
 In order to download the toolkit, the Visual Instruments Package Manager (VIPM) should be downloaded:
 
 https://www.vipm.io/download/
+
+### Programs
+
+In order to run a single command, run 
+```
+digitally_ros_without_joystick_single_target
+```
+
+If you want to give the excavator a new command after the previous target has been reached, run 
+```
+digitally_ros_without_Joystick_multiple_targets
+```
+
+In order to move the excavator manually by using joysticks, run
+```
+two_joysticks_without_sensors
+```
