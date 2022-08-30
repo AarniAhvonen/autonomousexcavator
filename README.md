@@ -52,7 +52,7 @@ https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_star
 ### Run model in the world of simulation
 Run the model:
 
-    roslaunch jcb_moveit_config demo_gazebp.launch
+    roslaunch jcb_moveit_config demo_gazebo.launch
 
 ### Run interface (planning path with specific positions)
 Open up the interface:
