@@ -12,6 +12,11 @@ PyQt5
 ROS Noetic Ninjemys/Gazebo/RViz
 Linux Ubuntu 20.04
 
+### For ROS Simulation
+Linux Ubuntu 20.04
+ROS Noetic Ninjemys/Gazebo/RViz
+
+
 
 ## Installation
 Clone the repo
