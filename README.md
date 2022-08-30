@@ -191,15 +191,15 @@ https://www.vipm.io/download/
 
 In order to run a single command, run 
 ```
-digitally_ros_without_joystick_single_target
+digitally_ros_without_joystick_single_target.vi
 ```
 
 If you want to give the excavator a new command after the previous target has been reached, run 
 ```
-digitally_ros_without_Joystick_multiple_targets
+digitally_ros_without_Joystick_multiple_targets.vi
 ```
 
 In order to move the excavator manually by using joysticks, run
 ```
-two_joysticks_without_sensors
+two_joysticks_without_sensors.vi
 ```
