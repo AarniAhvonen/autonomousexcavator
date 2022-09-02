@@ -55,6 +55,14 @@ ot follow expand the section below
     sudo apt install curl # if you haven't already installed curl
     curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
    ```
+   #### Update debian packages
+   ```
+    sudo apt update
+   ```
+  #### ROS desktop full install
+   ```
+    sudo apt install ros-noetic-desktop-full
+   ```
 </details>
 
 
