@@ -41,7 +41,7 @@ To install ROS on your local workstation, please access this page on ROS wiki:
 
 http://wiki.ros.org/noetic/Installation/Ubuntu
  
-ot follow expand the section below
+or follow expand the section below
 <details>
   <summary>Instructions for installing ros</summary>
   
@@ -80,6 +80,48 @@ ot follow expand the section below
 Install moveit and setup it according to the official tutorial:
 
 https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html#install-ros-and-catkin
+
+or follow the instructions below
+
+<details>
+  <summary>Instructions for installing MoveIt and creating a workspace</summary>
+  
+  #### Update all the packages
+   ```
+    rosdep update
+    sudo apt update
+    sudo apt dist-upgrade
+   ```
+    
+  #### Install catkin the ROS build system
+   ```
+    sudo apt install ros-noetic-catkin python3-catkin-tools python3-osrf-pycommon-
+   ```
+   #### Install wstool
+   ```
+    sudo apt install python3-wstool
+   ```
+  #### create a catkin worksapce and download MoveIt package
+   ```
+    mkdir -p ~/ws_moveit/src
+    cd ~/ws_moveit/src
+
+    wstool init .
+    wstool merge -t . https://raw.githubusercontent.com/ros-planning/moveit/master/moveit.rosinstall
+    wstool remove  moveit_tutorials
+    wstool update -t
+   ```
+  #### Environment Setup
+   ```
+    source /opt/ros/noetic/setup.bash
+   ```
+    
+  #### Automatically source this script every time you launch a shell
+   ```
+    echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+    source ~/.bashrc
+   ```
+</details>
 
 ### Download related packages
 1. Go the repo
