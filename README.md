@@ -63,6 +63,16 @@ ot follow expand the section below
    ```
     sudo apt install ros-noetic-desktop-full
    ```
+  #### Environment Setup
+   ```
+    source /opt/ros/noetic/setup.bash
+   ```
+    
+  #### Automatically source this script every time you launch a shell
+   ```
+    echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+    source ~/.bashrc
+   ```
 </details>
 
 
