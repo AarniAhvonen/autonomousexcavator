@@ -111,15 +111,25 @@ or follow the instructions below
     wstool remove  moveit_tutorials
     wstool update -t
    ```
-  #### Environment Setup
+  #### Install dependencies
    ```
-    source /opt/ros/noetic/setup.bash
+    rosdep install -y --from-paths . --ignore-src --rosdistro noetic
    ```
     
-  #### Automatically source this script every time you launch a shell
+  #### Build the catkin workspace
    ```
-    echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
-    source ~/.bashrc
+    cd ~/ws_moveit
+    catkin config --extend /opt/ros/noetic --cmake-args -DCMAKE_BUILD_TYPE=Release
+    catkin build
+   ```
+  #### Source the catkin workspace
+   ```
+    source ~/ws_moveit/devel/setup.bash
+    
+   ```
+  ##### Optional : Add the previous command to your workspace
+   ```
+   echo 'source ~/ws_moveit/devel/setup.bash' >> ~/.bashrc
    ```
 </details>
 
