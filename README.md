@@ -127,7 +127,7 @@ or follow the instructions below
     source ~/ws_moveit/devel/setup.bash
     
    ```
-  ##### Optional : Add the previous command to your workspace
+  ####### Optional : Add the previous command to your workspace
    ```
    echo 'source ~/ws_moveit/devel/setup.bash' >> ~/.bashrc
    ```
