@@ -1,5 +1,17 @@
 ## Introduction - Autonomous Excavator
 
+This project is an attempt to automate the arm of a Mini-Excavator using Robot Operating System(ROS) with the help of MoveIt Library to do motion planning between two given points.
+The URDF is developed for simulation purposes from CAD model using CAD to URDF coversion utility. 
+The project is also 
+from the starting point to the target point and uses the angle to length(cylinder extension) mapping to work around the closed loop kinematic chains associated with it. 
+
+The URDF for the excavator arm is developed for simulation purposes and also 
+
+also implemented in the actual excavator by interfacing it with LabView due to practicalities associated with legacy motor control systems.
+
+
+
+
 An experimental research tool that uses the Robot Operating System (ROS) to automate specific functions and demonstrate how different ROS libraries and packages may be utilized. In addition to ROS automation, a few LabView applications are employed for joystick-based manual excavator control.
 
 We have implemented the motion planning of the excavator arm using ROS MoveIt! library interfacing it with LabView programs for motor controls. 
